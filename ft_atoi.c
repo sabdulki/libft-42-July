@@ -6,7 +6,7 @@
 /*   By: sabdulki <sabdulki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/06 19:35:44 by sabdulki          #+#    #+#             */
-/*   Updated: 2023/07/26 22:18:32 by sabdulki         ###   ########.fr       */
+/*   Updated: 2023/09/13 17:05:04 by sabdulki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 int	ft_atoi(const char *arr)
 {
 	int	i;
-	int	minus;
-	int	res;
+	long long	minus;
+	long long	res;
 
 	i = 0;
 	minus = 1;
@@ -44,6 +44,6 @@ int	ft_atoi(const char *arr)
 // int main(void)
 // {
 // 	// char* arr = "+-54";// " +/-1234567890"
-// 	printf("%d\n", ft_atoi("-21474836479765576575776"));
-// 	printf("%d\n", atoi("-21474836479765576575776"));
+// 	printf("%d\n", ft_atoi("68795765576575776"));
+// 	printf("%d\n", atoi("68795765576575776"));
 // }
